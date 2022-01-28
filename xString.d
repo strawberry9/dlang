@@ -1,10 +1,9 @@
 module test;
 @safe:
 
-import std.stdio : write, writeln;
+import std.stdio : writeln;
 import std.range : iota, array;
 import std.algorithm : map;
-import std.array : join;
 
 void main()
 {
