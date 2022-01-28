@@ -10,11 +10,13 @@ void main()
 {
     int n = 10;
     
-    // create a string array containing n "x"s
-    auto xString = iota(0, n).map!(_ => "x" ).array; 
+    // create a char array containing n 'x's
+    auto xString = iota(0, n).map!(_ => 'x' ).array; 
     
-    writeln("xString is a ", typeof(xString).stringof); // xString is a string[]
+    writeln("xString is a ", typeof(xString).stringof); //xString is a char[]
+    writeln(xString);
     
-    writeln(xString.join()); // xxxxxxxxxx
-   
+    // change it into a 'z' string
+    xString[0..$] = 'z';
+    writeln(xString); // xxxxxzzzzz
 }
