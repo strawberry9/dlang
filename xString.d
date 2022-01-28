@@ -4,6 +4,7 @@ module test;
 import std.stdio : write, writeln;
 import std.range : iota, array;
 import std.algorithm : map;
+import std.array : join;
 
 void main()
 {
@@ -14,6 +15,6 @@ void main()
     
     writeln("xString is a ", typeof(xString).stringof); // xString is a string[]
     
-    foreach(el; xString)
-        write(el);
+    writeln(xString.join()); // xxxxxxxxxx
+   
 }
