@@ -1,5 +1,6 @@
 module test;
-
+@safe:
+    
 import std;
 
 void main()
