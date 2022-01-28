@@ -1,5 +1,6 @@
 module test;
-
+@safe:
+    
 import std.stdio : writeln;
 import std.algorithm : map;
 import std.ascii : letters;
