@@ -16,3 +16,10 @@ void main()
     string charsToUse = letters ~ "!#$%" ~ "0123456789";
     writeln(iota(howMany).map!(_ => charsToUse[uniform(0, $, rnd)]).array);
 }
+
+/+
+example output:
+
+l#!ztinZfzD5
+
++/
