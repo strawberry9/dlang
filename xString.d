@@ -13,7 +13,7 @@ void main()
     auto xString = iota(0, n).map!(_ => 'x' ).array; 
     
     writeln("xString is a ", typeof(xString).stringof); //xString is a char[]
-    writeln(xString);
+    writeln(xString); // xxxxxxxxxx
     
     // change that first 5 'x' to 'z'
     xString[0..5] = 'z';
