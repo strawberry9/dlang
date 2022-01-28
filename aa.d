@@ -1,4 +1,5 @@
 // Distributed under the FREE_FOR_ANY_USE LICENCE Version 1.0.
+
 module test;
 
 import std;
