@@ -15,7 +15,7 @@ void main()
     writeln("xString is a ", typeof(xString).stringof); //xString is a char[]
     writeln(xString);
     
-    // change it into a 'z' string
-    xString[0..$] = 'z';
-    writeln(xString); // xxxxxzzzzz
+    // change that first 5 'x' to 'z'
+    xString[0..5] = 'z';
+    writeln(xString); // zzzzzxxxxx
 }
