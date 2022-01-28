@@ -6,7 +6,8 @@ import std.stdio;
 void doit(in immutable string[] strings, out immutable(string)*[] pointers) pure nothrow
 {
     foreach(i, ref str; strings)
-        if(str == "one") () @trusted { pointers ~= &str; }(); 
+        if(str == "one")
+            () @trusted { pointers ~= &str; } (); // this is an inline 'trusted escape', to allows @system calls
 }
 
 void main()
