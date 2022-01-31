@@ -1,6 +1,9 @@
 # dlang
-The D Programming Language (example code)
+The D Programming Language
 
+(just some example code in the D Programming Language)
+
+Some interesting/useful links below:
 
 https://dlang.org/spec
 
