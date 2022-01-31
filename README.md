@@ -1,9 +1,9 @@
 # dlang
 The D Programming Language
 
-(just some example code in the D Programming Language)
+This repository contains some example code that I've written (possibly with help from others) in the D Programming Language.
 
-Some interesting/useful links below:
+Here are some interesting/useful related links below:
 
 https://dlang.org/spec
 
