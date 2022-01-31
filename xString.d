@@ -19,3 +19,12 @@ void main()
     xString[0..5] = 'z';
     writeln(xString); // zzzzzxxxxx
 }
+
+/+
+output is:
+
+xString is a char[]
+xxxxxxxxxx
+zzzzzxxxxx
+
++/
