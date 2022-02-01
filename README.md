@@ -21,7 +21,11 @@ https://dlang.org/dmd-linux.html
 
 https://dlang.org/dstyle.html
 
+
 https://wiki.dlang.org/Articles
+
+https://wiki.dlang.org/The_D_Programming_Language
+
 
 https://github.com/dlang
 
