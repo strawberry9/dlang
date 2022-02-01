@@ -7,8 +7,9 @@ Subject to the following disclaimer:
 
 - the code may or may not do what you think it does
 - the code may or may not work correctly
-- the code may or may not be safe
-- the code may or may not be efficient
+- the code may work on one platform, but not another
+- the code may or may not be memory ysafe
+- the code may or may not be efficient (in time and/or space)
 - the code may or may not reflect standards
 - the code may or may not reflect good practice
 - the code may or may not reflect good style
