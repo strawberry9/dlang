@@ -1,5 +1,4 @@
-# dlang
-The D Programming Language
+Absolutely delicious
 
 This repository contains some example code that I've written (possibly with help from others) in the D Programming Language.
 
