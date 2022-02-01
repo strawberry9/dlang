@@ -40,8 +40,7 @@ D:\My Documents\D\codesamples\concurrency.13.d
 D:\My Documents\D\codesamples\concurrency.14.d
 D:\My Documents\D\codesamples\concurrency.15.d
 D:\My Documents\D\codesamples\concurrency.16.d
-..
-...
-....
+
+Found 8 files.
 
 +/
