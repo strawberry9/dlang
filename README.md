@@ -5,6 +5,8 @@ This repository contains some example code that I've written (possibly with help
 
 Here are some interesting/useful related links below:
 
+https://tour.dlang.org/
+
 https://dlang.org/spec
 
 https://dlang.org/phobos/index.html
