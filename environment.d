@@ -8,7 +8,8 @@ import std.process : environment;
 
 void main()
 {
-    string key = "DLANG_BACKTRACE";
+    // NOTE: DLANG_BACKTRAC is 'not' a valid env variable in dlang.
+    string key = "DLANG_BACKTRACE"; 
     
     if (key in environment)
     {
@@ -21,3 +22,4 @@ void main()
         writefln("%s not found.", key);
                
 }
+
