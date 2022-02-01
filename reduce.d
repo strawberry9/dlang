@@ -10,6 +10,6 @@ void main()
     // This example passes in a string as a template argument
     writeln(arr.reduce!`a + b`); // 17
 
-    // Or, using a typical lambda expression
+    // Or, you can pass in a lambda expression
     writeln(arr.reduce!((a,b) => (a + b))); // 17
 }
